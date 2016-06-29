@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'BKoodakBold';
+  src: url('fonts/BKoodakBoldd41d.eot?#') format('eot'),  /* IE6–8 */
+       url('fonts/BKoodakBold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('fonts/BKoodakBold.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family: 'BYekan';
+  src: url('fonts/BYekand41d.eot?#') format('eot'),  /* IE6–8 */
+       url('fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('fonts/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family: 'BTraffic';
+  src: url('fonts/BTrafficd41d.eot?#') format('eot'),  /* IE6–8 */
+       url('fonts/BTraffic.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('fonts/BTraffic.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+#login-box h3{
+	font:  15px "BKoodakBold", Arial;
+	
+}
+
+#login-box h2 {
+	padding:0;
+	margin:0;
+	color: #ebebeb;
+	font: bold 44px "BTraffic", Arial;
+}
+body{
+   background: url(images/shattered.png);
+ }
+#selsearch{
+			font: 15px "BTraffic", Arial;
+			height: 25px;
+			
+			 background:#FFFFFF url(images/search.png) no-repeat 4px 4px; /* فاصله عکس از چپ و بالا برابر با 4 پیکسل */
+    padding:4px 4px 4px 22px; /* از بالا، پائین و راست 4 پیکسل فاصله داخلی و از چپ 22 پیکسل فاصله داخلی */
+    border:1px solid #CCCCCC;
+    width:230px;
+    height:18px;
+	
+	
+}
+#selbut{
+			font: 15px "BTraffic", Arial;
+			height: 35px;
+}
+#selectt{
+		font: 15px "BTraffic", Arial;
+	margin-left: 4px;
+
+}
+#jadval{
+		padding: 0px 76px 10px 0;
+		margin-left: 230px;
+}
+#login-box {
+	width:850px;
+	height: 640px;
+	
+	padding: 20px 76px 0 76px;
+	color: #ebebeb;
+	font: 12px Arial, Helvetica, sans-serif;
+	background: url(images/login-box-back.png) no-repeat left top;
+}
+
+#namyesh{
+			font:  15px "BYekan", Arial;
+	width:70px;
+		float: left;
+	display:inline;
+text-align: right;
+	padding: 0px 10px 0 0;
+	margin:0 0 7px 0;
+}
+
+#login-box-name {
+		font:  15px "BYekan", Arial;
+
+	float: left;
+	display:inline;
+	width:70px;
+	text-align: right;
+	padding: 0px 10px 0 0;
+	margin:0 0 7px 0;
+}
+
+#login-box-field {
+	float: left;
+	display:inline;
+	width:230px;
+	margin:0;
+	margin:0 0 7px 0;
+}
+
+
+
+.button,input[type=button],input[type=submit]{
+	border:1px solid #ffad41;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font:bold 12px tahoma, arial, helvetica, sans-serif;
+	padding: 7px;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	-o-text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	-webkit-text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	-khtml-text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	-moz-text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	text-align: center;
+	color: #FFF;
+	background-color: #ffc579;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc579), to(#fb9d23));
+	background-image: -webkit-linear-gradient(top, #ffc579, #fb9d23);
+	background-image: -moz-linear-gradient(top, #ffc579, #fb9d23);
+	background-image: -ms-linear-gradient(top, #ffc579, #fb9d23);
+	background-image: -o-linear-gradient(top, #ffc579, #fb9d23);
+	background-image: linear-gradient(to bottom, #ffc579, #fb9d23);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffc579, endColorstr=#fb9d23);
+	cursor:pointer;
+	margin:3px;
+}
+.button:hover,input[type=button]:hover,input[type=submit]:hover{
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.5);
+	-o-text-shadow: -1px -1px 0 rgba(0,0,0,0.5);
+	-webkit-text-shadow: -1px -1px 0 rgba(0,0,0,0.5);
+	-khtml-text-shadow: -1px -1px 0 rgba(0,0,0,0.5);
+	-moz-text-shadow: -1px -1px 0 rgba(0,0,0,0.5);
+	border:1px solid #ff9913;
+	background-color: #ffaf46;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffaf46), top(#e78404));
+	background-image: -webkit-linear-gradient(top, #ffaf46, #e78404);
+	background-image: -moz-linear-gradient(top, #ffaf46, #e78404);
+	background-image: -ms-linear-gradient(top, #ffaf46, #e78404);
+	background-image: -o-linear-gradient(top, #ffaf46, #e78404);
+	background-image: linear-gradient(to bottom, #ffaf46, #e78404);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffaf46, endColorstr=#e78404);
+}
+
+#customers
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+border-collapse:collapse;
+}
+#customers td, #customers th 
+{
+font-size:1em;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+}
+#customers th 
+{
+font-size:1.1em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#A7C942;
+color:#ffffff;
+}
+#customers tr.alt td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}
+
+
